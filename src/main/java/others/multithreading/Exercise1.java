@@ -10,7 +10,7 @@ public class Exercise1 {
         Runnable runnable_second = () -> System.out.println("Second runnable");
         executorService.execute(runnable_first);
 
-        Callable<String> callable = () -> "Some String";
+        Callable<String> callable = () -> "Some Strinhjgjgjgg";
 
         Future<String> submit_call = executorService.submit(callable);
         Future<String> submit_run = executorService.submit(runnable_second,"return");
