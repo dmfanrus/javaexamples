@@ -15,6 +15,5 @@ public class TwoThreads extends Thread{
     public static void main(String[] args) {
         new TwoThreads("String1jhjhjgjg").run();
         new TwoThreads("String2hjjhj").run();
-        System.out.println("end");
     }
 }
