@@ -2,7 +2,7 @@ package others.multithreading;
 
 public class TwoThreads extends Thread{
 
-    String msg = "default";
+    String msg = "master";
     String master = "master";
 
     public TwoThreads(String s) {
