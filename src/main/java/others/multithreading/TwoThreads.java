@@ -19,5 +19,6 @@ public class TwoThreads extends Thread{
         new TwoThreads("String2hjjhj").run();
         System.out.println("end_master_only_only");
         System.out.println("end_master_only");
+        System.out.println("end_master_only_2");
     }
 }
