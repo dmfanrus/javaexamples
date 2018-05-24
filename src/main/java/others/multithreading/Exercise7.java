@@ -10,7 +10,7 @@ public class Exercise7 {
     public void submitReports() throws ExecutionException, InterruptedException {
         ExecutorService s = Executors.newCachedThreadPool();
         Callable hello = () -> {
-            System.out.println("Hello");
+            System.out.println("Helloooooo");
             return 1;
         };
         Object o = s.submit(hello).get();
