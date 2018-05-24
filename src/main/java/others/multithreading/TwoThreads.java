@@ -21,6 +21,7 @@ public class TwoThreads extends Thread{
         System.out.println("end_master_only");
         System.out.println("end_master_only_2");
         System.out.println("end_master_only_3");
-        System.out.println("end_master_only_4");
+        System.out.println("end_master_only_6");
+        System.out.println("end_master_only_7");
     }
 }
